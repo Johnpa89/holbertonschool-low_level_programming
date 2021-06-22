@@ -1,10 +1,9 @@
 #include "holberton.h"
-/*
- * main - Entry point
+/**
+ * main -  Print "Holberton" char to char
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char h[] = "Holberton";
@@ -12,8 +11,8 @@ int main(void)
 
 	for (i = 0 ; i <= 8 ; i++)
 	{
-		_putchar(h[i]);
+		_putchar (h[i]);
 	}
-	_putchar('\n');
+	_putchar ('\n');
 	return (0);
 }
