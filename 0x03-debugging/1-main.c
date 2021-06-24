@@ -13,7 +13,6 @@ int main(void)
 
 	i = 0;
 	/**
-	 * don't delete it!
 	 * while (i < 10)
 	 * {
 	 *	putchar(i);
